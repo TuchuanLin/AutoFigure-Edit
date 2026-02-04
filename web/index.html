@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Autofigure2 Demo</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="input">
+    <div class="page">
+      <header class="topbar">
+        <div>
+          <div class="brand">Autofigure2 Demo</div>
+          <div class="subtitle">Generate SVG templates and preview every step.</div>
+        </div>
+      </header>
+
+      <main class="input-layout">
+        <section class="card">
+          <label class="field-label" for="methodText">Method Text</label>
+          <textarea
+            id="methodText"
+            class="textarea"
+            placeholder="Paste your paper method text here..."
+          ></textarea>
+          <div class="hint">Tip: concise, structured method text yields cleaner templates.</div>
+        </section>
+
+        <section class="card">
+          <div class="field-group">
+            <label class="field-label" for="provider">Provider</label>
+            <select id="provider" class="input">
+              <option value="bianxie" selected>Bianxie</option>
+              <option value="openrouter">OpenRouter</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="apiKey">API Key</label>
+            <input id="apiKey" type="password" class="input" placeholder="sk-..." />
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="optimizeIterations">Optimize</label>
+            <input id="optimizeIterations" class="input" type="number" min="0" value="0" />
+          </div>
+
+          <details class="advanced">
+            <summary>Advanced</summary>
+            <div class="field-group">
+              <label class="field-label" for="referenceImage">Reference Image</label>
+              <div class="upload-zone" id="uploadZone">
+                <input id="referenceFile" class="file-input" type="file" accept="image/*" />
+                <div class="upload-text">Drop image here or click to upload</div>
+              </div>
+              <div class="upload-meta">
+                <img id="referencePreview" class="upload-preview" alt="Reference preview" />
+                <div id="referenceStatus" class="hint"></div>
+              </div>
+              <input
+                id="referenceImage"
+                class="input"
+                value="refer_figure/2.png"
+              />
+              <div class="hint">Upload overrides the path above.</div>
+            </div>
+          </details>
+        </section>
+
+        <section class="actions">
+          <button id="confirmBtn" class="primary">Confirm -> Canvas</button>
+          <div id="errorMsg" class="error"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
