@@ -5,7 +5,7 @@
 # AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations [ICLR 2026]
 
 <p align="center">
-  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+  <a href="README.md">English</a> | <a href="README_ZH.md">中文</a>
 </p>
 
 [![ICLR 2026](https://img.shields.io/badge/ICLR-2026-blue?style=for-the-badge&logo=openreview)](https://openreview.net/forum?id=5N3z9JQJKq)
