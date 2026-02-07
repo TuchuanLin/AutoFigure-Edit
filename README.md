@@ -252,7 +252,7 @@ AutoFigure-edit/
 **WeChat Discussion Group**  
 Scan the QR code to join our community. If the code is expired, please add WeChat ID `nauhcutnil` or contact `tuchuan@mail.hfut.edu.cn`.
 
-<img src="img/wechat.jpg" width="200" alt="WeChat QR Code"/>
+<img src="img/wechat2.jpg" width="200" alt="WeChat QR Code"/>
 
 ---
 
