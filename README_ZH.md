@@ -247,6 +247,7 @@ AutoFigure-edit/
 扫描二维码加入我们的社区。如果二维码过期，请添加微信号 `nauhcutnil` 或联系 `tuchuan@mail.hfut.edu.cn`。
 
 <img src="img/wechat3.jpg" width="200" alt="WeChat QR Code"/>
+<img src="img/wechat4.jpg" width="200" alt="WeChat QR Code"/>
 
 ---
 
